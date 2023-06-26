@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  user-select: none;
+  background-color: #011f3f;
+}
+
+button {
+  width: 35%;
+  max-width: 200px;
+  aspect-ratio: 1 / 1;
+  border: 10px solid black;
+  border-radius: 25%;
+  margin: 15px;
+  outline: none;
+}
+
+button:active {
+  box-shadow: 0px 0px 21px 5px white;
+}
+
+button:focus {
+  outline: none;
+}
+
+.game-text {
+  font-family: "Press Start 2P";
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #fef2bf;
+}
+
+.title-text {
+  height: 4rem;
+  font-size: 2rem;
+}
+
+.background-wrong {
+  background-color: red;
+}
